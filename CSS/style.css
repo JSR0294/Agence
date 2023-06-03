@@ -1,0 +1,577 @@
+/* ======================================================== 
+===================== Common CSS ==========================
+======================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+q:before,
+q:after {
+  content: "";
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif !important;
+  /* background-color: black; */
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.bottom a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  padding: 15px 42px;
+  background: #6a4df4;
+  border-radius: 10px;
+}
+.content h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #151515;
+}
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+  margin-top: 20px;
+}
+/* ======================================================== 
+======================================================== */
+
+/* ======================================================== 
+======================== Nav CSS ==========================
+======================================================== */
+.nav {
+  top: 25px;
+  position: absolute !important;
+  width: 100%;
+}
+
+.nav ul li {
+  margin-right: 60px;
+}
+
+.nav ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  transition: 0.3s !important;
+  -webkit-transition: 0.3s !important;
+  -moz-transition: 0.3s !important;
+  -ms-transition: 0.3s !important;
+  -o-transition: 0.3s !important;
+}
+
+.nav ul li a:hover {
+  color: #4756df;
+  font-weight: 700;
+}
+
+/* ======================================================== 
+======================= Banner CSS ========================
+======================================================== */
+#banner {
+  background-image: url(../images/Banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 315px 0 176px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#banner .heading h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 120%;
+  width: 950px;
+  margin: 0 auto;
+}
+
+#banner .brief p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* ======================================================== 
+===================== Success_Rate CSS ====================
+======================================================== */
+#success_rate {
+    margin-top: 170px;
+}
+
+#success_rate .bg {
+    background: #e0fff9;
+    border-radius: 20px;
+    padding: 70px 50px;
+}
+
+#success_rate .bg .content h4{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 120%;
+  color: #6A4DF4;
+  margin-bottom: 15px;
+}
+
+#success_rate .bg .content h3{
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  color: #151515;
+  width: 345px;
+}
+
+#success_rate .bg .rate{
+  justify-content: flex-end;
+  column-gap: 80px;
+}
+
+#success_rate .bg .item h2{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #151515;
+  margin-bottom: 20px;
+}
+
+#success_rate .bg .item h5{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #737373;
+  width: 184px;
+}
+
+/* ======================================================== 
+======================= Service CSS =======================
+======================================================== */
+#service{
+  margin-top: 150px;
+}
+
+#service .content {
+  text-align: center;
+  width: 610px;
+  margin: 0 auto;
+}
+
+#service .services {
+  row-gap: 24px;
+}
+
+#service .services .custom-card {
+  text-align: center;
+  cursor: default;
+  padding: 80px 50px 46px;
+  border-radius: 20px;
+  margin-top: 50px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+#service .services .custom-card:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+#service .services .custom-card  picture {
+  display: inline-block;
+}
+
+#service .services .custom-card h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #151515;
+  margin-top: 40px;
+  margin-bottom: 21px;
+}
+
+#service .services .custom-card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+}
+
+/* ======================================================== 
+===================== Recent_Work CSS =====================
+======================================================== */
+#recent_work {
+  background-color: #f3f3f3;
+  margin-top: 105px;
+}
+
+#recent_work .padding {
+  padding: 150px 0;
+}
+
+#recent_work .content {
+  text-align: center;
+  width: 610px;
+  margin: 0 auto;
+}
+
+#recent_work .works {
+  row-gap: 24px;
+}
+
+#recent_work .works .custom-card {
+  background-color: #fff;
+  text-align: center;
+  cursor: default;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+#recent_work .works .custom-card picture img{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#recent_work .works .custom-card .brief {
+  padding: 30px 42px;
+}
+
+#recent_work .works .custom-card h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151515;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#recent_work .works .custom-card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+}
+
+/* ======================================================== 
+===================== Choose_Agence CSS =====================
+======================================================== */
+#choose_agence {
+  margin-top: 150px;
+}
+
+#choose_agence .content {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#choose_agence .gap{
+  margin-top: 130px;
+  row-gap: 88px;
+}
+
+#choose_agence .gap .space-between{
+  flex-direction: column;
+  row-gap: 70px;
+}
+
+#choose_agence .gap .group h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #151515;
+  margin: 20px 0 10px;
+  width: 240px;
+}
+
+#choose_agence .gap .group p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+  width: 335px;
+}
+
+/* ======================================================== 
+==================== Client Review CSS ====================
+======================================================== */
+#client_review {
+  margin-top: 105px;
+  margin-bottom: 100px;
+}
+
+#client_review .content {
+  text-align: center;
+  width: 620px;
+  margin: 0 auto;
+}
+
+#client_review .content h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #151515;
+}
+
+#client_review .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737373;
+  margin-top: 20px;
+  margin-bottom: 130px;
+}
+
+#client_review .review {
+  padding: 54px 58px;
+  border-radius: 30px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+#client_review .review:hover{
+  background-color: #F4EFEF;
+}
+
+#client_review .review p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+  margin: 20px 0;
+  width: 307px;
+}
+
+#client_review .review .five_star {
+  margin-bottom: 30px;
+}
+
+#client_review .review .user {
+  display: flex;
+  column-gap: 20px;
+}
+
+#client_review .review .user .title h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #232323;
+}
+
+#client_review .review .user .title h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b7b7b;
+}
+
+/* ======================================================== 
+======================== Quote CSS ========================
+======================================================== */
+#quote{
+  background: #F3F3F3;
+  padding: 150px 0;
+  margin-bottom: 150px;
+}
+
+#quote .content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#quote .content h2{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #151515;
+  width: 470px;
+  margin-bottom: 20px;
+}
+
+#quote .content p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7B7B7B;
+  width: 526px;
+}
+
+#quote .content .second{
+  margin-top: 10px;
+}
+
+#quote .form{
+  display: flex;
+  flex-direction: column;
+  padding: 61px 43px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  width: 536px;
+}
+
+#quote .form h2{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #151515;
+  text-align: center;  
+}
+
+#quote .form form{
+  display: flex;
+  flex-direction: column;
+}
+
+#quote .form form label{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #151515;
+  margin-bottom: 10px;
+}
+
+#quote .form form input{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #D0D0D0;
+  margin-bottom: 20px;
+  padding: 19px 23px;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+}
+
+#quote .form form button{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  background: #6A4DF4;
+  border-radius: 10px;
+  padding: 19px 0;
+}
+
+/* ======================================================== 
+======================= Footer CSS ========================
+======================================================== */
+footer .custom-margin{
+  margin-bottom: 50px;
+}
+
+footer .content .footer_logo{
+  margin-bottom: 30px;
+}
+
+footer .content p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7B7B7B;
+  width: 355px;
+}
+
+
+
+footer .custom-margin h4{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151515;
+  margin-bottom: 40px;
+}
+
+footer .custom-margin ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #7B7B7B;
+  margin-bottom: 50px;
+}
+
+footer .copy_right{
+  padding: 33px 0;
+  text-align: center;
+  border-top: 1px solid #E8E8E8;
+}
+
+footer .copy_right p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #D0D0D0;
+}
+/* ======================================================== 
+======================================================== */

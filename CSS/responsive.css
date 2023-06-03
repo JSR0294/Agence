@@ -1,0 +1,309 @@
+/* ====================================================================== Responsive =================== */
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* ================== Navbar ================= */
+  .navbar-toggler {
+    background-color: white;
+  }
+
+  .nav {
+    top: 20px;
+  }
+
+  .nav .navbar-nav {
+    background-color: #6a4df4;
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .nav .navbar-nav {
+    margin-top: 15px !important;
+  }
+
+  .nav .navbar-nav li {
+    margin: 0px;
+    padding: 5px 0;
+    border-bottom: 0.5px solid #fff;
+  }
+
+  .nav .navbar-nav li:last-child {
+    border-bottom: none;
+  }
+
+  .nav .navbar-nav li a:hover {
+    color: #000;
+    font-weight: 600;
+  }
+
+  .nav .bottom {
+    display: none;
+  }
+
+  /* ================= Banner ================== */
+  #banner .overlay {
+    padding: 200px 0 176px 0;
+  }
+
+  #banner .heading h1 {
+    font-size: 50px;
+    width: auto;
+  }
+
+  #banner .brief p {
+    font-size: 16px;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+
+  /* ================= Success ================= */
+  #success_rate {
+    margin-top: 100px;
+  }
+
+  #success_rate .bg {
+	padding: 50px 50px;
+}
+
+#success_rate .bg .content h4 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#success_rate .bg .content h3 {
+	font-size: 30px;
+	width: auto;
+    margin-bottom: 20px;
+}
+
+#success_rate .bg .item h2 {
+	font-size: 40px;
+	line-height: 60px;
+    margin-bottom: 0;
+}
+
+#success_rate .bg .item h5 {
+	margin-bottom: 20px;
+}
+
+  /* ================= Service ================= */
+  #service {
+	margin-top: 100px;
+}
+
+#service .content {
+	text-align: center;
+	width: auto;
+	/* margin: 0 auto; */
+}
+
+#service .content h2 {
+	/* font-weight: 700; */
+	font-size: 40px;
+	/* line-height: 54px; */
+	/* color: #151515; */
+}
+
+#service .content p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #737373; */
+	margin-top: 10px;
+}
+
+  /* ================= Recent ================== */
+#recent_work {
+	/* background-color: #f3f3f3; */
+	margin-top: 100px;
+}
+
+#recent_work .padding {
+	padding: 100px 0;
+}
+
+#recent_work .content {
+	text-align: center;
+	width: auto;
+	/* margin: 0 auto; */
+}
+
+#recent_work .content h2 {
+	/* font-weight: 700; */
+	font-size: 40px;
+	/* line-height: 54px; */
+	/* color: #151515; */
+}
+
+#recent_work .content p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #737373; */
+	margin-top: 10px;
+}
+
+#recent_work .works .custom-card picture img {
+    width: 100%;
+}
+
+  /* ================= Choose ================== */
+#choose_agence {
+	margin-top: 100px;
+}
+
+#choose_agence .content {
+	text-align: center;
+	width: auto;
+	/* margin: 0 auto; */
+}
+
+#choose_agence .content h2 {
+	/* font-weight: 700; */
+	font-size: 40px;
+	/* line-height: 54px; */
+	/* color: #151515; */
+}
+
+#choose_agence .content p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #737373; */
+	margin-top: 10px;
+}
+
+#choose_agence .gap {
+	margin-top: 70px;
+	/* row-gap: 88px; */
+}
+
+#choose_agence .gap .group p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #737373; */
+	width: auto;
+}
+
+#choose_agence .gap .space-between {
+	/* flex-direction: column; */
+	row-gap: 40px;
+}
+
+  /* ================= Review ================== */
+#client_review {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#client_review .content {
+	text-align: center;
+	width: auto;
+	/* margin: 0 auto; */
+}
+
+#client_review .content h2 {
+	/* font-weight: 700; */
+	font-size: 40px;
+	/* line-height: 54px; */
+	/* color: #151515; */
+}
+
+#client_review .content p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #737373; */
+	margin-top: 10px;
+}
+
+#client_review .review p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #7b7b7b;
+	margin: 20px 0;
+	width: auto;
+}
+
+  /* ================= Quote =================== */
+  #quote .content {
+	text-align: center;
+	width: auto;
+	/* margin: 0 auto; */
+}
+
+#quote .content h2 {
+	/* font-weight: 700; */
+	font-size: 40px;
+    width: auto;
+	/* line-height: 54px; */
+	/* color: #151515; */
+}
+
+#quote .content p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #737373; */
+	margin-top: 10px;
+    width: auto;
+}
+
+#quote .content .second {
+	/* margin-top: 10px; */
+	margin-bottom: 40px;
+}
+
+#quote .form {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* padding: 61px 43px; */
+	/* background: #FFFFFF; */
+	/* border-radius: 20px; */
+	width: auto;
+}
+
+#quote .form h2 {
+	/* font-weight: 700; */
+	/* font-size: 30px; */
+	/* line-height: 36px; */
+	/* color: #151515; */
+	/* text-align: center; */
+	margin-bottom: 40px;
+}
+
+  /* ================= Footer ================== */
+  footer .content p {
+	/* font-weight: 400; */
+	/* font-size: 16px; */
+	/* line-height: 26px; */
+	/* color: #7B7B7B; */
+	width: auto;
+	margin-bottom: 30px;
+}
+
+footer .custom-margin .list{
+    row-gap: 40px;
+}
+
+footer .custom-margin .list .link{
+    width: 50%;
+}
+
+footer .custom-margin .list .link h4 {
+	/* font-weight: 600; */
+	/* font-size: 20px; */
+	/* line-height: 24px; */
+	/* color: #151515; */
+	margin-bottom: 15px;
+}
+}
+/* ======================================================================================================================= */
+
